@@ -1,0 +1,15 @@
+C:\Users\korbe\OneDrive\Рабочий стол\C#\GB_CS_Seminars\ex2_ComparisonMax\bin\Debug\net7.0\ex2_ComparisonMax.exe
+C:\Users\korbe\OneDrive\Рабочий стол\C#\GB_CS_Seminars\ex2_ComparisonMax\bin\Debug\net7.0\ex2_ComparisonMax.deps.json
+C:\Users\korbe\OneDrive\Рабочий стол\C#\GB_CS_Seminars\ex2_ComparisonMax\bin\Debug\net7.0\ex2_ComparisonMax.runtimeconfig.json
+C:\Users\korbe\OneDrive\Рабочий стол\C#\GB_CS_Seminars\ex2_ComparisonMax\bin\Debug\net7.0\ex2_ComparisonMax.dll
+C:\Users\korbe\OneDrive\Рабочий стол\C#\GB_CS_Seminars\ex2_ComparisonMax\bin\Debug\net7.0\ex2_ComparisonMax.pdb
+C:\Users\korbe\OneDrive\Рабочий стол\C#\GB_CS_Seminars\ex2_ComparisonMax\obj\Debug\net7.0\ex2_ComparisonMax.csproj.AssemblyReference.cache
+C:\Users\korbe\OneDrive\Рабочий стол\C#\GB_CS_Seminars\ex2_ComparisonMax\obj\Debug\net7.0\ex2_ComparisonMax.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\korbe\OneDrive\Рабочий стол\C#\GB_CS_Seminars\ex2_ComparisonMax\obj\Debug\net7.0\ex2_ComparisonMax.AssemblyInfoInputs.cache
+C:\Users\korbe\OneDrive\Рабочий стол\C#\GB_CS_Seminars\ex2_ComparisonMax\obj\Debug\net7.0\ex2_ComparisonMax.AssemblyInfo.cs
+C:\Users\korbe\OneDrive\Рабочий стол\C#\GB_CS_Seminars\ex2_ComparisonMax\obj\Debug\net7.0\ex2_ComparisonMax.csproj.CoreCompileInputs.cache
+C:\Users\korbe\OneDrive\Рабочий стол\C#\GB_CS_Seminars\ex2_ComparisonMax\obj\Debug\net7.0\ex2_ComparisonMax.dll
+C:\Users\korbe\OneDrive\Рабочий стол\C#\GB_CS_Seminars\ex2_ComparisonMax\obj\Debug\net7.0\refint\ex2_ComparisonMax.dll
+C:\Users\korbe\OneDrive\Рабочий стол\C#\GB_CS_Seminars\ex2_ComparisonMax\obj\Debug\net7.0\ex2_ComparisonMax.pdb
+C:\Users\korbe\OneDrive\Рабочий стол\C#\GB_CS_Seminars\ex2_ComparisonMax\obj\Debug\net7.0\ex2_ComparisonMax.genruntimeconfig.cache
+C:\Users\korbe\OneDrive\Рабочий стол\C#\GB_CS_Seminars\ex2_ComparisonMax\obj\Debug\net7.0\ref\ex2_ComparisonMax.dll
