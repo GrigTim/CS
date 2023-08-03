@@ -42,7 +42,7 @@ static int GetNumberFromUser()
     {
         try
         {
-            Console.Write("Введите целое число: ");
+            Console.Write("Введите целое пятизначное число: ");
             int num = int.Parse(Console.ReadLine() ?? "");
             return num;
         }
@@ -64,10 +64,6 @@ static int PollyN(int x)
     int a4 = (x%100 - a5)/10;
     int exp1 = a1-a2+a4-a5;
     
-    if (x <10000)
-        Console.WriteLine (" Число не подходит");
-    else if (x>99999)
-        Console.WriteLine (" Число не подходит");
     if (exp1 == 0)
         Console.WriteLine (" Ага");
     else
