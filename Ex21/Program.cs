@@ -15,13 +15,13 @@ Console.ForegroundColor = ConsoleColor.DarkGreen;
 
 #region --- 01. Input operations ---
 // Вызов метода, запрашивающего у пользователя координаты 
-int x1 = GetNumberFromUser("Введите координату по оси x", "Ошибка ввода");
-int y1 = GetNumberFromUser("Введите координату по оси y", "Ошибка ввода");
-int z1 = GetNumberFromUser("Введите координату по оси z", "Ошибка ввода");
+int x1 = GetNumberFromUser("Введите координату по оси x ", "Ошибка ввода");
+int y1 = GetNumberFromUser("Введите координату по оси y ", "Ошибка ввода");
+int z1 = GetNumberFromUser("Введите координату по оси z ", "Ошибка ввода");
 
-int x2 = GetNumberFromUser("Введите координату по оси x", "Ошибка ввода");
-int y2 = GetNumberFromUser("Введите координату по оси y", "Ошибка ввода");
-int z2 = GetNumberFromUser("Введите координату по оси z", "Ошибка ввода");
+int x2 = GetNumberFromUser("Введите координату по оси x ", "Ошибка ввода");
+int y2 = GetNumberFromUser("Введите координату по оси y ", "Ошибка ввода");
+int z2 = GetNumberFromUser("Введите координату по оси z ", "Ошибка ввода");
 #endregion --- 01. Input operations ---
 
 #region --- 02. Business logic ---
@@ -63,9 +63,6 @@ static int GetNumberFromUser(string message, string errorMessage)
     }
 }
 
-// Определяем функцию, принимающую два аргумента (координаты точки x и y)
-// и возвращающую номер четверти плоскости, в которой находится эта точка
-// В случае попадания точки на оси координат генерируется исключение
 static double LongLine(int xa, int ya, int za, int xb, int yb, int zb)
 {
     double lline = Math.Pow(Math.Pow((xb-xa), 2) + Math.Pow((yb-ya), 2) + Math.Pow ((zb - za), 2), 0.5); 
