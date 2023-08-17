@@ -1,4 +1,4 @@
-﻿//Задача 36 сумма нечетных элементов массива
+﻿//Задача 36 сумма элементов нечетных позиций массива
 
 #region --- 00. Configuration ---
 Console.Clear();
@@ -7,7 +7,7 @@ Console.Clear();
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 var curConsoleColor = Console.ForegroundColor;
 Console.ForegroundColor = ConsoleColor.DarkGreen;
-Console.WriteLine(@"Задача 36 сумма нечетных элементов массива");
+Console.WriteLine(@"Задача 36 сумма нечетных позиций массива");
 Console.ForegroundColor = curConsoleColor;
 Console.ForegroundColor = ConsoleColor.DarkGreen;
 #endregion
@@ -34,11 +34,11 @@ int[] GetArray(int size, int minValue, int maxValue)
 int GetChSum(int[] arr)
 {
     int nSum = 0;
-    int i = 0;
+    int z = 0; 
     foreach (int el in arr)
     {
-        i = el % 2; 
-         if (i != 0  ) nSum = nSum + el;
+        if (z %2 != 0  ) nSum = nSum + el;
+         z++;
     }
     return nSum;
 }
