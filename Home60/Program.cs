@@ -12,25 +12,29 @@ Console.ForegroundColor = curConsoleColor;
 Console.ForegroundColor = ConsoleColor.DarkGreen;
 #endregion
 //Тут мне помогали, так что привычной разметки нема.  
-
+#region --- 01. Input operations ---
 int x = GetNumberFromUser("Введите размер первого измерения массива ", "Ошибка ввода");
 
 int y = GetNumberFromUser("Введите размер второго измерения массива ", "Ошибка ввода");
 
 int z = GetNumberFromUser("Введите число 3-его измерения массива ", "Ошибка ввода");
 
-Console.WriteLine();
+#endregion --- 01. Input operations ---
 
+#region --- 02. logic and output ---
+
+Console.WriteLine();
+//Проверка актуальности заполнения массива
 if(x * y * z <= 99) 
 {
     int[,,] array = GetArray3D(x, y, z);
-    PrintElementArray3D(array);
+    PrintEl3D(array);
 }
-else Console.WriteLine("Тут что то не так.");
+else Console.WriteLine("Кажется, интервал значений вне диапазона задачи");
 
+#endregion --- 02. logic and output ---
 
-
-// Эту задачу я решал с помощью, так что привычной разметки хрен. Ну, может, потом переделаю 
+// -------------------------Определение методов ---------------------------------
 static int GetNumberFromUser(string message, string errorMessage)
 {   
     while(true)
@@ -47,7 +51,7 @@ static int GetNumberFromUser(string message, string errorMessage)
     }
 }
 
-void PrintElementArray3D(int[,,] inArray)
+void PrintEl3D(int[,,] inArray)
 {
     for (int i = 0; i < inArray.GetLength(0); i++)
     {
@@ -55,10 +59,10 @@ void PrintElementArray3D(int[,,] inArray)
         {
             for (int k = 0; k < inArray.GetLength(2); k++)
             {
-                Console.WriteLine($"{inArray[i, j, k]}({i}, {j}, {k} )");
+                Console.WriteLine($"{inArray[i, j, k]} координаты ({i}, {j}, {k} )");
             }
         }
-        Console.WriteLine();
+        Console.Write();
     }
 }
 
